@@ -13,3 +13,12 @@ dummy_answer_upper:
 
 _answers_file: ".copier-answers-{{ dummy_answer }}.yml"
 _subdirectory: template
+
+
+_message_before_copy: |
+  You are copying 'dummy-copier-template' now
+  
+  You'll see the rendered template
+  
+_message_after_copy: |
+  Finished rendering template
