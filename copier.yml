@@ -16,10 +16,9 @@ _subdirectory: template
 
 
 _message_before_copy: |
-  You are copying 'The Dummy repo' now
+  You are copying 'dummy-copier-template' now
   
-  You'll see the rendered templateç
+  You'll see the rendered template
   
 _message_after_copy: |
-  Template rendered with "{{ dummy_answer }}" successfully
-  
+  Finished rendering template
