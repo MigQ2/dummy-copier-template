@@ -1,6 +1,9 @@
 
 dummy_answer:
   type: str
+  help: "Dummy answer"
+  validator: |-
+    {% if dummy_answer == '' %}Answer not provided{% endif %}
 
 _answers_file: ".copier-answers-{{ dummy_answer }}.yml"
 _subdirectory: template
