@@ -1,0 +1,6 @@
+
+dummy_answer:
+  type: str
+
+_answers_file: ".copier-answers-{{ dummy_answer }}.yml"
+_subdirectory: template
