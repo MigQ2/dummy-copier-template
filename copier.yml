@@ -5,5 +5,11 @@ dummy_answer:
   validator: |-
     {% if dummy_answer == '' %}Answer not provided{% endif %}
 
+dummy_answer_upper:
+  type: str
+  when: false
+  default: |-
+    {{ dummy_answer|upper }}
+
 _answers_file: ".copier-answers-{{ dummy_answer }}.yml"
 _subdirectory: template
